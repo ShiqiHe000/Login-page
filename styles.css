@@ -1,0 +1,90 @@
+:root {
+    --login-input-border-radius: 5px;
+}
+
+
+* {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+html, 
+body {
+    margin: 0;
+}
+
+.full-screen-container {
+    background-image: url("./imgs/background_screen.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 50px 30px;
+    min-width: 400px;
+    max-width: 600px;
+    width: 50%;
+    color: white;
+
+}
+
+.login-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.input-groups {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-groups label {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.input-groups input {
+    font-size: 1.5rem;
+    padding: 0.1rem 0.25rem;
+    background-color: rgba(255, 255, 255, 40%);
+    border: 2px solid  rgba(255, 255, 255, 20%);
+    border-radius: var(--login-input-border-radius);
+    outline: none;
+    color: white;
+
+}
+
+.input-groups input:focus {
+    border: 2px solid  rgba(255, 255, 255, 80%);
+}
+
+
+.login-btn {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 40%);
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 40%);
+    outline: none;
+    border-radius: var(--login-input-border-radius);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+.login-btn:focus {
+    background-color: rgba(255, 255, 255, 40%);
+}
