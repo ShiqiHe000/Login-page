@@ -12,3 +12,8 @@ firefox index.html
 ```
 in your terminal. 
 
+## Demo
+
+<p align="center">
+  <img src="./imgs/login-screenshot.png" width="80%">
+</p>
